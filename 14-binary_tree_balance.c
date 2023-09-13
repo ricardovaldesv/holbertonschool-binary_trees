@@ -28,9 +28,9 @@ int binary_height(const binary_tree_t *tree)
 	else if (tree->right == NULL)
 		return (1);
 	else if (cont_L > cont_R)
-		return (cont_L + 1);
+		return (cont_L + 2);
 	else
-		return (cont_R + 1);
+		return (cont_R + 2);
 }
 
 int binary_tree_balance(const binary_tree_t *tree)
