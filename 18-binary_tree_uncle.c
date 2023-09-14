@@ -8,7 +8,7 @@
  *If node has no sibling, return NULL
  */
 
-/*binary_tree_t *binary_tree_sibling(binary_tree_t *node)
+binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 {
 	if (node == NULL || node->parent == NULL)
 		return (NULL);
@@ -21,7 +21,7 @@
 		return (node->parent->right);
 	else
 		return (node->parent->left);
-}*/
+}
 
 /**
  *binary_tree_uncle- Function that finds the uncle of a node.
